@@ -1,0 +1,64 @@
+.page {
+    width: auto;
+    height: 3200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.intro-text {
+    /* align-items: center; */
+    /* justify-content: center; */
+    background: transparent;
+    /* z-index: 1; */
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: white;
+    width: 70%;
+}
+.direction {
+    height: 70px;
+    background-color: #176aa1;
+    align-items: center;
+    justify-content: center;
+}
+.direction a {
+    color: white;
+}
+.moi {
+    padding-left: 300px;
+}
+.developpeuse {
+    padding-right: 100px;
+    padding-top: 20px;
+    
+}
+.presentation {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.presentation a {
+    color: white;
+}
+.btn-portfolio {
+    background-color: #2e86c1;
+    color: white;
+    width: 120px;
+}
+.competence {
+    background-color:  #2e86c1;
+    color: white;
+    
+}
+
+.coordonnees {
+    background-color:  #2e86c1;
+    color: white;
+    
+}
+.github a {
+    color: white;
+}
