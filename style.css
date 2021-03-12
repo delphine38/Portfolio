@@ -1,9 +1,17 @@
 .page {
     width: auto;
-    height: 3200px;
+    height: 2400px;
     border: 1px solid black;
     margin: 10px;
 }
+
+.imagepresentation {
+    background-image: url("/img/presentation.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .intro-text {
     /* align-items: center; */
     /* justify-content: center; */
@@ -13,18 +21,22 @@
     text-align: center;
     font-family: Georgia;
     margin: 0 auto;
-    left: 0;
+    padding-top: 10px;
+    left: 19%;
     right: 0;
-    top: 50%;
+    top: 20%;
     color: white;
-    width: 70%;
+    width: 30%;
+    border: 5px solid white ;
+    border-radius: 50px;
 }
-.direction {
+/* header {
+    background-color:  #176aa1;
+} */
+.nav-bar {
     height: 70px;
     background-color: #176aa1;
-    align-items: center;
-    justify-content: center;
-}
+    }
 .direction a {
     color: white;
 }
@@ -36,10 +48,10 @@
     padding-top: 20px;
     
 }
-.presentation {
+/* .presentation {
     padding-top: 100px;
     padding-bottom: 150px;
-}
+} */
 .presentation a {
     color: white;
 }
@@ -54,7 +66,15 @@
     
 }
 
-.coordonnees {
+a {
+    text-decoration: none;
+    transition: 1s;
+}
+
+.btn:hover {
+    font-size: 120%;
+}
+.contact {
     background-color:  #2e86c1;
     color: white;
     
