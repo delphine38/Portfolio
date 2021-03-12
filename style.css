@@ -1,5 +1,6 @@
 .page {
     width: auto;
+<<<<<<< HEAD
     height: 2400px;
     border: 1px solid black;
     margin: 10px;
@@ -12,6 +13,12 @@
     background-size: cover;
 }
 
+=======
+    height: 3200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+>>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
 .intro-text {
     /* align-items: center; */
     /* justify-content: center; */
@@ -21,6 +28,7 @@
     text-align: center;
     font-family: Georgia;
     margin: 0 auto;
+<<<<<<< HEAD
     padding-top: 10px;
     left: 19%;
     right: 0;
@@ -37,6 +45,20 @@
     height: 70px;
     background-color: #176aa1;
     }
+=======
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: white;
+    width: 70%;
+}
+.direction {
+    height: 70px;
+    background-color: #176aa1;
+    align-items: center;
+    justify-content: center;
+}
+>>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
 .direction a {
     color: white;
 }
@@ -48,10 +70,17 @@
     padding-top: 20px;
     
 }
+<<<<<<< HEAD
 /* .presentation {
     padding-top: 100px;
     padding-bottom: 150px;
 } */
+=======
+.presentation {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+>>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
 .presentation a {
     color: white;
 }
@@ -66,6 +95,7 @@
     
 }
 
+<<<<<<< HEAD
 a {
     text-decoration: none;
     transition: 1s;
@@ -75,6 +105,9 @@ a {
     font-size: 120%;
 }
 .contact {
+=======
+.coordonnees {
+>>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
     background-color:  #2e86c1;
     color: white;
     
