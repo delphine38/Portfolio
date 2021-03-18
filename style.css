@@ -1,117 +1,81 @@
 .page {
-    width: auto;
-<<<<<<< HEAD
-    height: 2400px;
-    border: 1px solid black;
-    margin: 10px;
+  width: auto;
+  height: 2400px;
+  border: 1px solid black;
+  margin: 10px;
 }
 
 .imagepresentation {
-    background-image: url("/img/presentation.jpg");
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("/img/presentation.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-=======
-    height: 3200px;
-    border: 1px solid black;
-    margin: 10px;
-}
->>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
 .intro-text {
-    /* align-items: center; */
-    /* justify-content: center; */
-    background: transparent;
-    /* z-index: 1; */
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin: 0 auto;
-<<<<<<< HEAD
-    padding-top: 10px;
-    left: 19%;
-    right: 0;
-    top: 20%;
-    color: white;
-    width: 30%;
-    border: 5px solid white ;
-    border-radius: 50px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background: transparent;
+  /* z-index: 1; */
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  margin: 0 auto;
+  padding-top: 10px;
+  left: 19%;
+  right: 0;
+  top: 20%;
+  color: white;
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 50px;
 }
 /* header {
     background-color:  #176aa1;
 } */
 .nav-bar {
-    height: 70px;
-    background-color: #176aa1;
-    }
-=======
-    left: 0;
-    right: 0;
-    top: 50%;
-    color: white;
-    width: 70%;
+  height: 70px;
+  background-color: #176aa1;
 }
-.direction {
-    height: 70px;
-    background-color: #176aa1;
-    align-items: center;
-    justify-content: center;
-}
->>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
 .direction a {
-    color: white;
+  color: white;
 }
 .moi {
-    padding-left: 300px;
+  padding-left: 300px;
 }
 .developpeuse {
-    padding-right: 100px;
-    padding-top: 20px;
-    
+  padding-right: 100px;
+  padding-top: 20px;
 }
-<<<<<<< HEAD
 /* .presentation {
     padding-top: 100px;
     padding-bottom: 150px;
 } */
-=======
-.presentation {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
->>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
 .presentation a {
-    color: white;
+  color: white;
 }
 .btn-portfolio {
-    background-color: #2e86c1;
-    color: white;
-    width: 120px;
+  background-color: #2e86c1;
+  color: white;
+  width: 120px;
 }
 .competence {
-    background-color:  #2e86c1;
-    color: white;
-    
+  background-color: #2e86c1;
+  color: white;
 }
 
-<<<<<<< HEAD
 a {
-    text-decoration: none;
-    transition: 1s;
+  text-decoration: none;
+  transition: 1s;
 }
 
 .btn:hover {
-    font-size: 120%;
+  font-size: 120%;
 }
 .contact {
-=======
-.coordonnees {
->>>>>>> 0ad46b11049aaec34c83e5787d7ec34fbdafb2fd
-    background-color:  #2e86c1;
-    color: white;
-    
+  background-color: #2e86c1;
+  color: white;
 }
 .github a {
-    color: white;
+  color: white;
 }
