@@ -4,49 +4,74 @@
   border: 1px solid black;
   margin: 10px;
 }
+.container {
+  width: 2000px;
+}
+/* couleur bleu foncé
+1d85e6
+couleur bleu clair
+c3daf0 */
+/*********header***************/
 
-.imagepresentation {
-  background-image: url("/img/presentation.jpg");
-  height: 600px;
-  background-repeat: no-repeat;
+header {
+  background-image: url("img/presentation.jpg");
   background-size: cover;
+  background-position: initial;
+  padding-bottom: 100px;
+  color: white;
 }
 
-.intro-text {
-  /* align-items: center; */
-  /* justify-content: center; */
-  background: transparent;
-  /* z-index: 1; */
-  position: absolute;
+.delfpresentation {
   text-align: center;
-  font-family: Georgia;
-  margin: 0 auto;
-  padding-top: 10px;
-  left: 19%;
-  right: 0;
-  top: 20%;
   color: white;
-  width: 30%;
-  border: 5px solid white;
-  border-radius: 50px;
+  padding-top: 150px;
 }
-/* header {
-    background-color:  #176aa1;
-} */
+/*********fin header***************/
+
+/*********main***************/
+a {
+  text-decoration: none;
+  transition: 1s;
+}
 .nav-bar {
   height: 70px;
-  background-color: #176aa1;
+  background-color: #1d85e6;
 }
-.direction a {
+/* .direction a {
   color: white;
+} */
+
+/*********réalisationCompétences***************/
+main {
+  background-color: #c3daf0;
 }
+.realisation div {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.realisation img {
+  width: 400px;
+  height: 400px;
+}
+.imagecompetence img {
+  width: 100px;
+  height: 100px;
+}
+
 .moi {
-  padding-left: 300px;
+  padding-left: 30px;
 }
 .developpeuse {
   padding-right: 100px;
   padding-top: 20px;
 }
+/********* fin réalisationCompétences***************/
 /* .presentation {
     padding-top: 100px;
     padding-bottom: 150px;
@@ -64,17 +89,12 @@
   color: white;
 }
 
-a {
-  text-decoration: none;
-  transition: 1s;
-}
-
+/*********main fin***************/
 .btn:hover {
   font-size: 120%;
 }
 .contact {
-  background-color: #2e86c1;
-  color: white;
+  color: black;
 }
 .github a {
   color: white;
