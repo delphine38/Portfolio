@@ -7,6 +7,9 @@
 .container {
   width: 2000px;
 }
+.btn {
+  background-color: #1d85e6;
+}
 /* couleur bleu foncé
 1d85e6
 couleur bleu clair
@@ -29,6 +32,10 @@ header {
 /*********fin header***************/
 
 /*********main***************/
+main {
+  background-color: #000015;
+  color: white;
+}
 a {
   text-decoration: none;
   transition: 1s;
@@ -42,11 +49,10 @@ a {
 } */
 
 /*********réalisationCompétences***************/
-main {
-  background-color: #c3daf0;
-}
-.realisation div {
-  border: 1px solid black;
+
+.realisation article {
+  box-shadow: 2px 2px 5px 5px white;
+  border: 1px solid white;
   border-radius: 20px;
   padding-bottom: 50px;
   justify-content: center;
@@ -54,14 +60,19 @@ main {
   margin-right: 50px;
   margin-bottom: 50px;
 }
+.realisation article h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .realisation img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 .imagecompetence img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
 }
 
 .moi {
@@ -79,8 +90,11 @@ main {
 .presentation a {
   color: white;
 }
+.presentation img {
+  border-radius: 50px;
+}
 .btn-portfolio {
-  background-color: #2e86c1;
+  background-color: #1d85e6;
   color: white;
   width: 120px;
 }
@@ -88,13 +102,16 @@ main {
   background-color: #2e86c1;
   color: white;
 }
+.contact a {
+  background-color: #1d85e6;
+}
 
 /*********main fin***************/
 .btn:hover {
   font-size: 120%;
 }
 .contact {
-  color: black;
+  color: white;
 }
 .github a {
   color: white;
