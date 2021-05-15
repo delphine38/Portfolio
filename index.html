@@ -11,21 +11,53 @@
 </head>
 
 <body>
-  <header>
-    <section class="delfpresentation" id="accueil">
-      <h1>Delphine RODRIGUEZ</h1>
-      <h2>Développeuse Web, Web Mobile</h2>
-      <p>Des premiers PC personnels au développement Web, mon goût pour l'informatique vient de loin. <br>
-        Aujourd'hui, je
-        veux le
-        mettre en pratique au service d'une équipe <br>
-        #coder #applicationConcrète #besoinsClients</p>
-      <h5>Bienvenue à vous et bonne visite sur mon Portfolio <br> en cours d'amélioration 😉</h5>
-    </section>
+
+  <header class="row d-flex justify-content-center">
+    <div>
+      <!-- je dois mettre responsive la photo sur tablette et portable -->
+      <section class="delfpresentation" id="accueil">
+        <!-- mettre en responsive cette partie texte elle doit apparaitre sur portable en dessous de la photo -->
+        <h1>Delphine RODRIGUEZ</h1>
+        <h2>Développeuse Web, Web Mobile</h2>
+        <p>Des premiers PC personnels au développement Web, mon goût pour l'informatique vient de loin. <br>
+          Aujourd'hui, je
+          veux le
+          mettre en pratique au service d'une équipe <br>
+          #coder #applicationConcrète #besoinsClients</p>
+        <h5>Bienvenue à vous et bonne visite sur mon Portfolio <br> en cours d'amélioration 😉</h5>
+      </section>
+    </div>
   </header>
 
   <main>
-    <div class="navigation nav-bar pt-3 nav justify-content-center mx-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#" style="margin-left:2%;">PORTFOLIO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-center" style="width:100%;">
+          <li class="nav-item active">
+            <a class="text-white col-6" href="#accueil">Accueil</a>
+          </li>
+          <li class="nav-item ">
+            <a class="text-white col-6" href="#realisationcompetences">Réalisations et Compétences</a>
+          </li>
+          <li class="nav-item ">
+            <a class="text-white col-6" href="#apropos">A propos de moi...</a>
+          </li>
+          <li class="nav-item ">
+            <a class="text-white col-6" href="#contact">Contactez moi</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+    <!-- <div class="navigation nav-bar pt-3 nav justify-content-center mx-auto">
       <ul>
         <li class="d-inline nav-items m-4"><a class="text-white" href="#accueil">Accueil</a></li>
         <li class="d-inline nav-items m-4"><a class="text-white" href="#realisationcompetences">Réalisations et
@@ -33,75 +65,115 @@
         <li class="d-inline nav-items m-4"><a class="text-white" href="#apropos">A propos de moi...</a></li>
         <li class="d-inline nav-items"><a class="text-white" href="#contact">Contactez moi</a></li>
       </ul>
-    </div>
+    </div> -->
 
 
-    <section class="container">
+    <section class="container-fluid">
 
+      <!-- je dois mettre responsive chaque article doit apparaitre l'un en dessous des autres en portable et en tablette??? -->
+      <div class="realisation row">
+        <div class="row w-100 p-3 d-flex justify-content-center">
+          <h3 class="text-center pt-5 mb-5 pe-5 me-5" id="realisationcompetences">Ce que j'ai codé....</h3>
+        </div>
 
-      <div class="realisation row pt-5">
-        <h3 class="text-center pt-5 mb-5 pe-5 me-5" id="realisationcompetences">Ce que j'ai codé....</h3>
-
-        <article class="col-3">
-          <h5 class="text-left">Voici mon " CV Développeuse Web "<br> html /css / bootstrap</h5>
-          <a href="https://cv-delphine-rodriguez-developpeuse-web.netlify.app/" target="_blank"><img src="img/cv.png"
-              alt="cv"></a>
-        </article>
-
-        <article class="col-3">
-          <h5 class="text-left">" Maladie rares ", créé pendant ma formation <br> Culture Numérique Simplon et
-            présenté au
-            jury. <br> Pour faire connaitre les maladies rares et invisible. <br>
-            html /css /bootstrap</h5>
-          <a href="https://maladies-rares.netlify.app" target="_blank"><img src="img/maladierareajour.png"
-              alt="maladie rares"></a>
-        </article>
-
-        <article class="col-3">
-          <h5 class="text-left">Vélo... Un site que j'ai fais en autodidacte via OpenClassroom
-            où
-            je parle de ma
-            passion pour le vélo<br>html /css /bootstrap</h5>
-          <a href="https://velo-delphine.netlify.app" target="_blank"><img src="img/baladeavelojour.png" alt="velo"></a>
-        </article>
-
-        <article class="col-3">
-          <h5 class="text-left">Exemple de futur calculatrice que je veux codé en html/css/bootstrap/javascript</h5>
-          <a href="#" target="_blank"><img src="img/calculatrice.png" alt="cv"></a>
-        </article>
+        <div class="container-fluid row  d-flex justify-content-center">
 
 
 
-        <article class="col-3">
-          <h5>Les technos que j'utilise....</h5>
-          <section class="imagecompetence d-flex flex-wrap">
+          <article class="col col-sm-3 col-lg-3">
+            <!-- col sm= tel sur 3 colonne, col lg=ordi sur 3 colonnes-->
+            <div class="justify-content-center h-100">
+              <div class="row justify-content-center ">
+                <h5 class="text-left">Voici mon " CV Développeuse Web "<br> html /css / bootstrap</h5>
+              </div>
+              <div class="row justify-content-center  h-100 d-flex flex-wrap align-items-center">
+                <a href="https://cv-delphine-rodriguez-developpeuse-web.netlify.app/" target="_blank"><img
+                    src="img/cv.png" alt="cv"></a>
+              </div>
+            </div>
+          </article>
 
-            <img src="img/vscode.png" alt="vscode">
+          <article class="col col-sm-3 col-lg-3">
+            <!-- col sm= tel sur 3 colonne, col lg=ordi sur 3 colonnes-->
+            <div class="justify-content-center h-100">
+              <div class="row justify-content-center ">
+                <h5 class="text-left">" Maladie rares ", créé pendant ma formation <br> Culture Numérique Simplon et
+                  présenté au
+                  jury. <br> Pour faire connaitre les maladies rares et invisible. <br>
+                  html /css /bootstrap</h5>
+              </div>
+              <div class="row justify-content-center  h-100 d-flex flex-wrap align-items-center">
+                <a href="https://maladies-rares.netlify.app" target="_blank"><img src="img/maladierareajour.png"
+                    alt="maladie rares">
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col col-sm-3 col-lg-3">
+            <!-- col sm= tel sur 3 colonne, col lg=ordi sur 3 colonnes-->
+            <div class="justify-content-center h-100">
+              <div class="row justify-content-center ">
+                <h5 class="text-left">Vélo... Un site que j'ai fais en autodidacte via OpenClassroom
+                  où
+                  je parle de ma
+                  passion pour le vélo<br>html /css /bootstrap</h5>
+              </div>
+              <div class="row justify-content-center  h-100 d-flex flex-wrap align-items-center">
+                <a href="https://velo-delphine.netlify.app" target="_blank"><img src="img/baladeavelojour.png"
+                    alt="velo">
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col col-sm-3 col-lg-3">
+            <!-- col sm= tel sur 3 colonne, col lg=ordi sur 3 colonnes-->
+            <div class="justify-content-center h-100">
+              <div class="row justify-content-center ">
+                <h5 class="text-left">Exemple de futur calculatrice que je veux codé en html/css/bootstrap/javascript
+                </h5>
+              </div>
+              <div class="row justify-content-center  h-100 d-flex flex-wrap align-items-center">
+                <a href="#" target="_blank"><img src="img/calculatrice.png" alt="cv">
+                </a>
+              </div>
+            </div>
+          </article>
 
 
-            <img src="img/html.jpg" alt="html">
+
+          <article class="col col-sm-3 col-lg-3">
+            <!-- col sm= tel sur 3 colonne, col lg=ordi sur 3 colonnes-->
+            <h5>Les technos que j'utilise....</h5>
+            <section class="imagecompetence d-flex flex-wrap">
+
+              <img src="img/vscode.png" alt="vscode">
 
 
-            <img src="img/css.jpg" alt="css">
+              <img src="img/html.jpg" alt="html">
 
 
-            <img src="img/bootstrap.png" alt="bootsrap">
-
-            <img src="img/mySql.png" alt="mySql">
-
-            <img src="img/javascript.jpg" alt="javascript">
-
-            <img src="img/angular.png" alt="angular">
-
-            <img src="img/php.png" alt="php">
-
-            <img src="img/synfony.png" alt="synfony">
-
-            <img src="img/wordPress.png" alt="wordpress">
-
-        </article>
+              <img src="img/css.jpg" alt="css">
 
 
+              <img src="img/bootstrap.png" alt="bootsrap">
+
+              <img src="img/mySql.png" alt="mySql">
+
+              <img src="img/javascript.jpg" alt="javascript">
+
+              <img src="img/angular.png" alt="angular">
+
+              <img src="img/php.png" alt="php">
+
+              <img src="img/synfony.png" alt="synfony">
+
+              <img src="img/wordPress.png" alt="wordpress">
+
+          </article>
+
+        </div>
 
       </div>
       <div class="presentation">
@@ -112,7 +184,7 @@
             <img src="img/delphine.jpg" alt="mon velo" width="190" height="200px">
           </div>
 
-          <div class="col-6">
+          <div class="col-7">
             <div class="developpeuse pt-5">
               <p>Je suis Delphine, très heureuse de devenir <strong>Développeuse Web et Web Mobile</strong>,
                 grâce à :<br>
@@ -129,6 +201,9 @@
                 Back-end et
                 front-end.
                 Un grand Merci
+              <div class="btn-portfolio">
+                <a href="#realisationcompetences">Mes réalisations</a>
+              </div>
               </p>
             </div>
           </div>
@@ -148,97 +223,58 @@
     </section>
 
 
-    <!-- <div class="presentation">
-      <h4 id="apropos" class="text-center pt-5 pb-5"> A propos de ma présentation</h4>
+    <div class="presentation">
 
-      <div class="row pb-5">
-        <div class="col-6 pt-5">
-          <div class="moi">
-            <img src="img/delphine.jpg" alt="mon velo" width="190" height="200px">
-          </div>
-        </div>
-
-        <div class="col-6">
-          <div class="developpeuse">
-            <p>Je suis Delphine, très heureuse de devenir Développeuse Web Junior, grâce à :<br>
-              Moi, autodidacte de février à juin 2020 avec OpenClassroom et Sublim text ;<br>
-              Simplon, pendant 4 semaines m'a initier au langage Swift iOS en juin/juillet 2020, à distance, avec
-              discord, via Apple;<br>
-              Simplon, pendant 6 semaines m'a aussi initier à html, css, Bootstrap, GitHub, sept/oct 20 création de
-              site
-              à
-              présenter à un jury; <br>
-              Human Booster, me forme de décembre 2020 à Novembre 2021, aux langages Back-end et front-end.
-              Un grand Merci</p>
-          </div>
-
-          <div class="btn-portfolio">
-            <a href="#portfolio">Mes réalisations</a>
-          </div>
-        </div>
-      </div>
-      <div class="nav-bar pt-3 mt-5 nav justify-content-center text-white">
-        <ul>
-          <li class="d-inline nav-items m-4"><a href="#accueil">Accueil</a></li>
-          <li class="d-inline nav-items m-4"><a href="#apropos">A propos</a></li>
-          <li class="d-inline nav-items m-4"><a href="#competences">Compétences</a></li>
-          <li class="d-inline nav-items m-4"><a href="#portfolio">Portfolio</a></li>
-          <li class="d-inline nav-items"><a href="#contact">Contactez moi</a></li>
-        </ul>
-      </div>
+      <!--fin de apropos-->
 
 
-    </div>
-    fin de apropos -->
-
-
-    <!--deb de compétences-->
-    <div class="contact pt-5">
-      <div class="Portfolio" id="contact">
-        <h4 class="text-center pt-5 mb-5">Contactez-moi : Ce formulaire est en cours de codage </h4>
-        <h5 class="text-center">Je suis disponible sur <a class="text-white"
-            href="https://www.linkedin.com/in/delphine-rodriguez/" target="_blank"> linkedin</a></h5>
+      <!--deb de compétences-->
+      <div class="contact pt-5">
+        <div class="Portfolio" id="contact">
+          <h4 class="text-center pt-5 mb-5">Contactez-moi : Ce formulaire est en cours de codage </h4>
+          <h5 class="text-center">Je suis disponible sur <a class="text-white"
+              href="https://www.linkedin.com/in/delphine-rodriguez/" target="_blank"> linkedin</a></h5>
 
 
 
-        <div class="container pl-5">
-          <div class="row justify-content-center pl-5">
-            <div class="col-4 text-center pb-5">
-              <p> delphine38@live.fr</p>
-              <div class="row">
-                <div class="form-group col-sm-6">
-                  <label for="name" class="h4">Nom</label>
-                  <input type="text" class="form-control" id="name" placeholder="Entrer votre nom" required>
+          <div class="container pl-5">
+            <div class="row justify-content-center pl-5">
+              <div class="col-4 text-center pb-5">
+                <p> delphine38@live.fr</p>
+                <div class="row">
+                  <div class="form-group col-sm-6">
+                    <label for="name" class="h4">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Entrer votre nom" required>
+                  </div>
+                  <div class="form-group col-sm-6">
+                    <label for="email" class="h4">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Entre votre email" required>
+                  </div>
                 </div>
-                <div class="form-group col-sm-6">
-                  <label for="email" class="h4">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Entre votre email" required>
+                <div class="form-group">
+                  <label for="message" class="h4 ">Message</label>
+                  <textarea id="message" class="form-control" rows="5"
+                    placeholder="Je serais ravie de lire votre message" required></textarea>
                 </div>
+                <button type="submit" id="form-submit" class="btn btn-lg pull-right mt-5">Envoyer</button>
+                <!-- <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div> -->
               </div>
-              <div class="form-group">
-                <label for="message" class="h4 ">Message</label>
-                <textarea id="message" class="form-control" rows="5" placeholder="Je serais ravie de lire votre message"
-                  required></textarea>
-              </div>
-              <button type="submit" id="form-submit" class="btn btn-lg pull-right mt-5">Envoyer</button>
-              <!-- <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div> -->
             </div>
           </div>
+
         </div>
 
+
+        <div class="github pb-5 text-center">
+          <a href="https://github.com/delphine38" target="_blank">
+            <p>Bienvenue sur Mon lien GitHub</p>
+          </a>
+
+        </div>
+
+
+
       </div>
-
-
-      <div class="github pb-5 text-center">
-        <a href="https://github.com/delphine38" target="_blank">
-          <p>Bienvenue sur Mon lien GitHub</p>
-        </a>
-
-      </div>
-
-
-
-    </div>
     </div>
   </main>
 

@@ -17,7 +17,7 @@ c3daf0 */
 /*********header***************/
 
 header {
-  background-image: url("img/presentation.jpg");
+  background: url("img/presentation.jpg");
   background-size: cover;
   background-position: initial;
   padding-bottom: 100px;
@@ -115,4 +115,20 @@ a {
 }
 .github a {
   color: white;
+}
+
+/******************** vv début média querys*/
+@media screen (max-width: 768px) {
+  header {
+    background: url("img/presentation.jpg");
+    background-size: cover;
+    background-position: initial;
+    height: 100vh;
+  }
+  .delfpresentation {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 150px;
+  }
 }
